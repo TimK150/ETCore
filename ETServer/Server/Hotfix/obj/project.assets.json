@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net6.0": {
       "CommandLineParser/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -2106,7 +2106,7 @@
       },
       "ETCore/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CommandLineParser": "2.2.1",
           "Google.Protobuf": "1.0.0",
@@ -6488,7 +6488,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net6.0": [
       "ETCore >= 1.0.0",
       "MongoDB.Bson >= 0.0.0-local",
       "MongoDB.Driver >= 0.0.0-local",
@@ -6517,7 +6517,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6525,8 +6525,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ETCore\\Server.ETCore.csproj": {
               "projectPath": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ETCore\\Server.ETCore.csproj"
@@ -6550,8 +6550,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",

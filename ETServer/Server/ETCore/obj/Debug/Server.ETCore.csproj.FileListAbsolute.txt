@@ -12,3 +12,5 @@ C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETC
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.csproj.CopyComplete
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\ETCore.dll
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\ETCore.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\refint\ETCore.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\ref\ETCore.dll

@@ -12,3 +12,5 @@ C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\Server.Hot
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\Hotfix.dll
 C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\Hotfix.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\refint\Hotfix.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\Hotfix\obj\Debug\ref\Hotfix.dll

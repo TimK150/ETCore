@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
               "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ETCore\\Server.ETCore.csproj": {
                 "projectPath": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ETCore\\Server.ETCore.csproj"
@@ -46,8 +46,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "NLog": {
               "target": "Package",
@@ -92,7 +92,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -100,8 +100,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
               "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
                 "projectPath": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj"
@@ -128,8 +128,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "CommandLineParser": {
               "target": "Package",
