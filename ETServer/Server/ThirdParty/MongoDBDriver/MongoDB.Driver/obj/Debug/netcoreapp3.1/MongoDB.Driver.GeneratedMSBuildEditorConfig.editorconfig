@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MongoDB.Driver
+build_property.ProjectDir = C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\

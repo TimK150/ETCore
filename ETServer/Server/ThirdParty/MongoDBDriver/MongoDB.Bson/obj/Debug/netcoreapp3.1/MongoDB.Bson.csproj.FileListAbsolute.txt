@@ -42,3 +42,15 @@ E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.dll
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.xml
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Bson.deps.json
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Bson.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Bson.xml
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.csproj.AssemblyReference.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.AssemblyInfo.cs
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.xml
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp3.1\MongoDB.Bson.pdb

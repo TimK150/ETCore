@@ -8,23 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Rman-xvr\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Tim\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ETCoreLandlords\\ETServer6.0\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+      "projectUniqueName": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
       "projectName": "KcpLib",
-      "projectPath": "E:\\ETCoreLandlords\\ETServer6.0\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
-      "packagesPath": "C:\\Users\\Rman-xvr\\.nuget\\packages\\",
-      "outputPath": "E:\\ETCoreLandlords\\ETServer6.0\\Server\\ThirdParty\\KcpLib\\obj\\",
+      "projectPath": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ThirdParty\\KcpLib\\KcpLib.csproj",
+      "packagesPath": "C:\\Users\\Tim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tim\\Desktop\\git\\Fork\\ETCore\\ETServer\\Server\\ThirdParty\\KcpLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rman-xvr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,10 +33,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -47,13 +50,15 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -62,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -46,3 +46,16 @@ E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Co
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.xml
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Driver.Core.deps.json
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Driver.Core.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\netcoreapp3.1\MongoDB.Driver.Core.xml
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.csproj.AssemblyReference.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.AssemblyInfo.cs
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.csproj.CopyComplete
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.xml
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Debug\netcoreapp3.1\MongoDB.Driver.Core.pdb

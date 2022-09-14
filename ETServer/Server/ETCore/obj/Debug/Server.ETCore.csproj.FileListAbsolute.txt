@@ -1,0 +1,14 @@
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\libkcp.dylib
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\libkcp.so
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\kcp.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\ETCore.deps.json
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\ETCore.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\ETCore.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.csproj.AssemblyReference.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.AssemblyInfo.cs
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\Server.ETCore.csproj.CopyComplete
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\ETCore.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ETCore\obj\Debug\ETCore.pdb

@@ -38,3 +38,14 @@ E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\Google.Protobuf\obj\Debug\Googl
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
 E:\ETCoreLandlords\ETServer6.0\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\Google.Protobuf.deps.json
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\Google.Protobuf.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Bin\Google.Protobuf.pdb
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.AssemblyReference.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfoInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfo.cs
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
+C:\Users\Tim\Desktop\git\Fork\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb
