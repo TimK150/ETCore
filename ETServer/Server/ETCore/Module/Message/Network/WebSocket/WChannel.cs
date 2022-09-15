@@ -182,6 +182,11 @@ namespace ET
                     do
                     {
 #if SERVER
+
+                        //´ú¸Õ¥Î
+                        if (cancellationTokenSource is null)
+                            cancellationTokenSource = new CancellationTokenSource();
+
                         receiveResult = await this.webSocket.ReceiveAsync(
                             new Memory<byte>(this.recvStream.GetBuffer(), receiveCount, this.recvStream.Capacity - receiveCount),
                             cancellationTokenSource.Token);
