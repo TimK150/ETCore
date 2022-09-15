@@ -17,8 +17,8 @@ namespace ET
 			G2R_GetLoginKey g2RGetLoginKey = (G2R_GetLoginKey) await ActorMessageSenderComponent.Instance.Call(
 				config.SceneId, new R2G_GetLoginKey() {Account = request.Account});
 
-			response.Address = config.OuterAddress;
-			response.Key = g2RGetLoginKey.Key;
+			response.Address = config.OuterAddress.Replace("http:", "ws:");
+            response.Key = g2RGetLoginKey.Key;
 			response.GateId = g2RGetLoginKey.GateId;
 			reply();
 		}

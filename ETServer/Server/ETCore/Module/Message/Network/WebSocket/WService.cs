@@ -71,7 +71,7 @@ namespace ET
             {
                 foreach (string prefix in prefixs)
                 {
-                    this.httpListener.Prefixes.Add(prefix);
+                    this.httpListener.Prefixes.Add(prefix + "/");
                 }
                 
                 httpListener.Start();

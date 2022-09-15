@@ -55,3 +55,24 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/ETClient/Unity/Assets/ETCore/Module/Pathfinding.meta
+/ETClient/Unity/Assets/Model.meta
+/ETClient/Unity/Library
+/ETClient/Unity/Logs
+/ETClient/Unity/Packages
+/ETClient/Unity/ProjectSettings
+/ETClient/Unity/UserSettings
+/ETClient/Unity/Unity.ThirdParty.csproj
+/ETClient/Unity/Unity.sln
+/ETClient/Unity/Unity.Model.csproj
+/ETClient/Unity/Unity.ETCore.csproj
+/ETClient/Unity/Unity.Editor.csproj
+/ETClient/Unity/.vsconfig
+/ETServer/Bin
+/ETServer/Logs
+/ETServer/Server/App/obj
+/ETServer/Server/ETCore/obj
+/ETServer/Server/Hotfix/obj
+/ETServer/Server/ThirdParty/Google.Protobuf/obj/Debug
+/ETServer/Server/ThirdParty/KcpLib/obj/Debug
+/ETServer/Server/ThirdParty/MongoDBDriver

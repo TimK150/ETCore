@@ -117,7 +117,7 @@ namespace ET
 
         public async ETVoid StartSend()
         {
-            if (this.IsDisposed)
+            if (!this.isConnected)
             {
                 return;
             }
@@ -143,7 +143,7 @@ namespace ET
                     try
                     {
                         await this.webSocket.SendAsync(new ArraySegment<byte>(bytes, 0, bytes.Length), WebSocketMessageType.Binary, true, cancellationTokenSource.Token);
-                        if (this.IsDisposed)
+                        if (!this.isConnected)
                         {
                             return;
                         }
@@ -164,7 +164,7 @@ namespace ET
 
         public async ETVoid StartRecv()
         {
-            if (this.IsDisposed)
+            if (!this.isConnected)
             {
                 return;
             }
@@ -190,7 +190,7 @@ namespace ET
                             new ArraySegment<byte>(this.recvStream.GetBuffer(), receiveCount, this.recvStream.Capacity - receiveCount), 
                             cancellationTokenSource.Token);
 #endif
-                        if (this.IsDisposed)
+                        if (!this.isConnected)
                         {
                             return;
                         }
