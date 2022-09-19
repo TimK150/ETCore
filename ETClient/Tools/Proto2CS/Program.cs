@@ -27,18 +27,21 @@ namespace ETTools
             {
                 protoc = "protoc";
             }
-            ProcessHelper.Run(protoc, "--csharp_out=\"../Unity/Assets/Model/Module/Message/\" --proto_path=\"./\" OuterMessage.proto", waitExit: true);
+            //ProcessHelper.Run(protoc, "--csharp_out=\"../Unity/Assets/ETCore/Module/Message/\" --proto_path=\"./\" OuterMessage.proto", waitExit: true);
+            ProcessHelper.Run(protoc, "--csharp_out=\"../Unity/Assets/ETCore/Module/Message/\" --proto_path=\"./\" HotfixMessage.proto", waitExit: true);
 
             // InnerMessage.proto生成cs代码
             InnerProto2CS.Proto2CS(); 
 
-            Proto2CS("ETModel", "OuterMessage.proto", clientMessagePath, "OuterOpcode", 100);
+            //Proto2CS("ET", "OuterMessage.proto", clientMessagePath, "OuterOpcode", 100);
+            Proto2CS("ET", "HotfixMessage.proto", clientMessagePath, "HotfixOpcode", 1000);
             
             Console.WriteLine("proto2cs succeed!");
         }
 
         private const string protoPath = ".";
-        private const string clientMessagePath = "../Unity/Assets/Model/Module/Message/";
+        private const string clientMessagePath = "../Unity/Assets/ETCore/Module/Message/";
+        private const string hotfixMessagePath = "../Unity/Assets/Model/Module/Message/";
         private static readonly char[] splitChars = { ' ', '\t' };
         private static readonly List<OpcodeInfo> msgOpcode = new List<OpcodeInfo>();
 
@@ -131,15 +134,15 @@ namespace ETTools
     public static class InnerProto2CS
     {
         private const string protoPath = ".";
-        private const string serverMessagePath = "../Server/Model/Module/Message/";
+        private const string serverMessagePath = "../Unity/Assets/ETCore/Module/Message/";
         private static readonly char[] splitChars = { ' ', '\t' };
         private static readonly List<OpcodeInfo> msgOpcode = new List<OpcodeInfo>();
 
         public static void Proto2CS()
         {
             msgOpcode.Clear();
-            Proto2CS("ETModel", "InnerMessage.proto", serverMessagePath, "InnerOpcode", 1000);
-            GenerateOpcode("ETModel", "InnerOpcode", serverMessagePath);
+            //Proto2CS("ETModel", "InnerMessage.proto", serverMessagePath, "InnerOpcode", 1000);
+            //GenerateOpcode("ETModel", "InnerOpcode", serverMessagePath);
         }
 
         public static void Proto2CS(string ns, string protoName, string outputPath, string opcodeClassName, int startOpcode)
@@ -151,7 +154,7 @@ namespace ETTools
             string s = File.ReadAllText(proto);
 
             StringBuilder sb = new StringBuilder();
-            sb.Append("using ETModel;\n");
+            sb.Append("using ET;\n");
             sb.Append("using System.Collections.Generic;\n");
             sb.Append($"namespace {ns}\n");
             sb.Append("{\n");

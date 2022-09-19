@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ETCore6.1.1\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {}
+    "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {}
   },
   "projects": {
-    "D:\\ETCore6.1.1\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
+    "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETCore6.1.1\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "projectUniqueName": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
         "projectName": "Google.Protobuf",
-        "projectPath": "D:\\ETCore6.1.1\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
-        "packagesPath": "C:\\Users\\iSuper\\.nuget\\packages\\",
-        "outputPath": "D:\\ETCore6.1.1\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
+        "projectPath": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\Google.Protobuf.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\Google.Protobuf\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iSuper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,16 +41,15 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +58,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+      "version": "0.0.0-local",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectName": "MongoDB.Bson",
+        "projectPath": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\Core\\ETCore\\ETServer\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

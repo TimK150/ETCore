@@ -48,10 +48,16 @@ namespace ET
 	public partial class M2C_Reload : IResponse {}
 
 	[Message(OuterOpcode.C2R_Login)]
-	public partial class C2R_Login : IRequest {}
+	public partial class C2R_Login : IRequest { }
 
 	[Message(OuterOpcode.R2C_Login)]
-	public partial class R2C_Login : IResponse {}
+	public partial class R2C_Login : IResponse { }
+
+	[Message(OuterOpcode.C2R_Login2)]
+	public partial class C2R_Login2 : IRequest { }
+
+	[Message(OuterOpcode.R2C_Login2)]
+	public partial class R2C_Login2 : IResponse { }
 
 	[Message(OuterOpcode.C2G_LoginGate)]
 	public partial class C2G_LoginGate : IRequest {}
@@ -107,5 +113,7 @@ namespace ET
 		 public const ushort PlayerInfo = 123;
 		 public const ushort C2G_PlayerInfo = 124;
 		 public const ushort G2C_PlayerInfo = 125;
+		public const ushort C2R_Login2 = 126;
+		public const ushort R2C_Login2 = 127;
 	}
 }

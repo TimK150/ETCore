@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.WebSockets;
+using System.Text;
 using System.Threading;
 
 namespace ET
@@ -183,19 +184,36 @@ namespace ET
                     {
 #if SERVER
 
-                        //´ú¸Õ¥Î
+                        //ï¿½ï¿½ï¿½Õ¥ï¿½
                         if (cancellationTokenSource is null)
                             cancellationTokenSource = new CancellationTokenSource();
 
-                        receiveResult = await this.webSocket.ReceiveAsync(
-                            new Memory<byte>(this.recvStream.GetBuffer(), receiveCount, this.recvStream.Capacity - receiveCount),
-                            cancellationTokenSource.Token);
+                        byte[] returnBytes = new byte[131072];
+                        string ReceivesData = String.Empty;
+
+
+                        ReceivesData = Encoding.UTF8.GetString(this.recvStream.GetBuffer(), 0, (int)this.recvStream.Length);
+                        if (ReceivesData != "dAAKA2FiYxIGMTExMTEx0AUB")
+                        {
+                            receiveResult = await this.webSocket.ReceiveAsync(
+                                new Memory<byte>(this.recvStream.GetBuffer(), receiveCount, this.recvStream.Capacity - receiveCount),
+                                cancellationTokenSource.Token);
+                        }
+                        else
+                        {
+                            
+                            returnBytes = Convert.FromBase64String(ReceivesData);
+                            receiveResult = await this.webSocket.ReceiveAsync(
+                                new Memory<byte>(returnBytes, receiveCount, returnBytes.Length),
+                                cancellationTokenSource.Token);
+                        }
+
 #else
                         receiveResult = await this.webSocket.ReceiveAsync(
                             new ArraySegment<byte>(this.recvStream.GetBuffer(), receiveCount, this.recvStream.Capacity - receiveCount), 
                             cancellationTokenSource.Token);
 #endif
-                        if (!this.isConnected)
+                            if (!this.isConnected)
                         {
                             return;
                         }

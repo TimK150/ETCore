@@ -42,10 +42,9 @@ namespace ET
 
 				Game.EventSystem.Run(EventIdType.InitSceneStart);
 
-				//测试发送给服务端一条文本消息
-				//Session session = Game.Scene.GetComponent<NetOuterComponent>().Create(GlobalConfigComponent.Instance.GlobalProto.Address);
-                //G2C_TestMessage g2CTestMessage = (G2C_TestMessage) await session.Call(new C2G_TestMessage() { Info = "==>>服务端的朋友,你好!收到请回答" });
-	
+                //测试发送给服务端一条文本消息
+                Session session = Game.Scene.GetComponent<NetOuterComponent>().Create(GlobalConfigComponent.Instance.GlobalProto.Address);
+                G2C_ISuperTestMessage g2CTestMessage = (G2C_ISuperTestMessage)await session.Call(new C2G_ISuperTestMessage() { Info = "==>>服务端的朋友,你好!收到请回答" });
 			}
 			catch (Exception e)
 			{
