@@ -18,9 +18,9 @@ namespace ET
 		{
 			switch (protocol)
 			{
-				case NetworkProtocol.KCP:
-					this.Service = new KService() { Parent = this };
-					break;
+				//case NetworkProtocol.KCP:
+				//	this.Service = new KService() { Parent = this };
+				//	break;
 				case NetworkProtocol.TCP:
 					this.Service = new TService(packetSize) { Parent = this };
 					break;
@@ -37,18 +37,18 @@ namespace ET
 				IPEndPoint ipEndPoint;
 				switch (protocol)
 				{
-					case NetworkProtocol.KCP:
-						ipEndPoint = NetworkHelper.ToIPEndPoint(address);
-						this.Service = new KService(ipEndPoint, (channel)=> { this.OnAccept(channel); }) { Parent = this };
-						break;
+					//case NetworkProtocol.KCP:
+					//	ipEndPoint = NetworkHelper.ToIPEndPoint(address);
+					//	this.Service = new KService(ipEndPoint, (channel)=> { this.OnAccept(channel); }) { Parent = this };
+					//	break;
 					case NetworkProtocol.TCP:
 						ipEndPoint = NetworkHelper.ToIPEndPoint(address);
 						this.Service = new TService(packetSize, ipEndPoint, (channel)=> { this.OnAccept(channel); }) { Parent = this };
 						break;
 					case NetworkProtocol.WebSocket:
-						string[] prefixs = address.Split(';');
-						this.Service = new WService(prefixs, (channel)=> { this.OnAccept(channel); }) { Parent = this };
-						break;
+                        string[] prefixs = address.Split(';');
+                        this.Service = new WService(prefixs, (channel) => { this.OnAccept(channel); }) { Parent = this };
+                        break;
 				}
 			}
 			catch (Exception e)

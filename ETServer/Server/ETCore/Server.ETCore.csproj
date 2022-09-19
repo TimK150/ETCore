@@ -19,32 +19,40 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Base\UnityEngine\**" />
     <Compile Remove="Libs\**" />
+    <Compile Remove="Module\DB\**" />
+    <Compile Remove="Module\Message\Network\KCP\**" />
+    <Compile Remove="Module\Pathfinding\**" />
+    <EmbeddedResource Remove="Base\UnityEngine\**" />
     <EmbeddedResource Remove="Libs\**" />
+    <EmbeddedResource Remove="Module\DB\**" />
+    <EmbeddedResource Remove="Module\Message\Network\KCP\**" />
+    <EmbeddedResource Remove="Module\Pathfinding\**" />
+    <None Remove="Base\UnityEngine\**" />
     <None Remove="Libs\**" />
+    <None Remove="Module\DB\**" />
+    <None Remove="Module\Message\Network\KCP\**" />
+    <None Remove="Module\Pathfinding\**" />
     <None Remove="graph.bytes" />
     <Compile Remove="Module\Scene\**" />
     <EmbeddedResource Remove="Module\Scene\**" />
     <None Remove="Module\Scene\**" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Base\Helper\Dumper.cs" />
+    <Compile Remove="Base\StructBsonSerialize.cs" />
+  </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.2.1" />
+    <PackageReference Include="CommandLineParser" Version="2.5.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.Scripting" Version="2.9.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.17.1" />
     <PackageReference Include="NLog" Version="4.5.4" />
     <PackageReference Include="SharpZipLib" Version="1.0.0-alpha2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ThirdParty\Google.Protobuf\Google.Protobuf.csproj" />
-    <ProjectReference Include="..\ThirdParty\KcpLib\KcpLib.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Bson\MongoDB.Bson.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\MongoDB.Driver.Core.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoDB.Driver.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced, Version=1.9.1.9000, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\ThirdParty\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
   </ItemGroup>
   
 </Project>

@@ -37,7 +37,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Google.Protobuf.Compatibility;
-using MongoDB.Bson.Serialization.Attributes;
+//using MongoDB.Bson.Serialization.Attributes;
 
 namespace Google.Protobuf
 {
@@ -109,7 +109,7 @@ namespace Google.Protobuf
         /// <summary>
         /// Returns the length of this ByteString in bytes.
         /// </summary>
-        [BsonIgnore]
+        //[BsonIgnore]
         public int Length
         {
             get { return bytes.Length; }
@@ -118,7 +118,7 @@ namespace Google.Protobuf
         /// <summary>
         /// Returns <c>true</c> if this byte string is empty, <c>false</c> otherwise.
         /// </summary>
-        [BsonIgnore]
+        //[BsonIgnore]
         public bool IsEmpty
         {
             get { return Length == 0; }
@@ -215,7 +215,7 @@ namespace Google.Protobuf
         /// <summary>
         /// Retuns the byte at the given index.
         /// </summary>
-        [BsonIgnore]
+        //[BsonIgnore]
         public byte this[int index]
         {
             get { return bytes[index]; }

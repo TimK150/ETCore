@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -29,5 +29,8 @@
     <Compile Include="..\..\ETCore\Module\Message\Network\KCP\Kcp.cs">
       <Link>Kcp.cs</Link>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Google.Protobuf\Google.Protobuf.csproj" />
   </ItemGroup>
 </Project>

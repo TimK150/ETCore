@@ -76,3 +76,5 @@ crashlytics-build.properties
 /ETServer/Server/ThirdParty/Google.Protobuf/obj/Debug
 /ETServer/Server/ThirdParty/KcpLib/obj/Debug
 /ETServer/Server/ThirdParty/MongoDBDriver
+/ETServer/Server/App/Properties/PublishProfiles
+/ETServer/Server/App/Server.App.csproj.user

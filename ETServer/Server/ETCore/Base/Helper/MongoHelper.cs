@@ -6,7 +6,6 @@ using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using System.Collections.Generic;
 using MongoDB.Bson.Serialization.Conventions;
-using UnityEngine;
 
 namespace ET
 {
@@ -44,12 +43,12 @@ namespace ET
                 }
                 
             }
-#if SERVER
-            BsonSerializer.RegisterSerializer(typeof(Vector3), new StructBsonSerialize<Vector3>());
-#else
-            BsonSerializer.RegisterSerializer(typeof(Vector4), new StructBsonSerialize<Vector4>());
-            BsonSerializer.RegisterSerializer(typeof(Vector2Int), new StructBsonSerialize<Vector2Int>());
-#endif
+//#if SERVER
+//            //BsonSerializer.RegisterSerializer(typeof(Vector3), new StructBsonSerialize<Vector3>());
+//#else
+//            BsonSerializer.RegisterSerializer(typeof(Vector4), new StructBsonSerialize<Vector4>());
+//            BsonSerializer.RegisterSerializer(typeof(Vector2Int), new StructBsonSerialize<Vector2Int>());
+//#endif
         }
         
         public static void Init()

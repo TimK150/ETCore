@@ -17,14 +17,25 @@
     <OutputPath>..\..\Bin\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Module\DB\**" />
     <Compile Remove="Other\**" />
+    <EmbeddedResource Remove="Module\DB\**" />
     <EmbeddedResource Remove="Other\**" />
+    <None Remove="Module\DB\**" />
     <None Remove="Other\**" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Demo\GameComponent\MoveComponent.cs" />
+    <Compile Remove="Demo\GameComponent\UnitPathComponent.cs" />
+    <Compile Remove="Demo\Handler\Actor_TransferHandler.cs" />
+    <Compile Remove="Demo\Handler\C2M_TestActorRequestHandler.cs" />
+    <Compile Remove="Demo\Handler\Frame_ClickMapHandler.cs" />
+    <Compile Remove="Demo\Handler\G2M_CreateUnitHandler.cs" />
+    <Compile Remove="Demo\Handler\G2M_SessionDisconnectHandler.cs" />
+    <Compile Remove="Demo\Handler\M2M_TrasferUnitRequestHandler.cs" />
+    <Compile Remove="Demo\System\UnitPathComponentSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ETCore\Server.ETCore.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Bson\MongoDB.Bson.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\MongoDB.Driver.Core.csproj" />
-    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoDB.Driver.csproj" />
   </ItemGroup>
 </Project>

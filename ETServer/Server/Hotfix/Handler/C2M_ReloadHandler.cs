@@ -10,7 +10,7 @@ namespace ET
 		{
 			// if (request.Account != "panda" && request.Password != "panda")
 			// {
-			// 	Log.Error($"error reload account and password: {MongoHelper.ToJson(request)}");
+			// 	Log.Error($"error reload account and password: {JsonHelper.ToJson(request)}");
 			// 	return;
 			// }
 			// StartConfigComponent startConfigComponent = Game.Scene.GetComponent<StartConfigComponent>();

@@ -19,7 +19,7 @@ namespace ET
 				Game.EventSystem.Add(typeof(Game).Assembly);
 				Game.EventSystem.Add(DllHelper.GetHotfixAssembly());
 				
-				MongoHelper.Init();
+				//MongoHelper.Init();
 				
 				// 命令行参数
 				Options options = null;
