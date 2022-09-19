@@ -78,3 +78,4 @@ crashlytics-build.properties
 /ETServer/Server/ThirdParty/MongoDBDriver
 /ETServer/Server/App/Properties/PublishProfiles
 /ETServer/Server/App/Server.App.csproj.user
+/ETClient/Unity/Temp

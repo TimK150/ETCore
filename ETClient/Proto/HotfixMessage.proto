@@ -1,0 +1,17 @@
+syntax = "proto3";
+package ET;
+
+//测试向服务器发送消息
+message C2G_ISuperTestMessage  // IRequest
+{
+	int32 RpcId = 90;
+	int64 ActorId = 91;
+	string Info = 92;
+}
+//测试向服务器返回消息
+message G2C_ISuperTestMessage // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}

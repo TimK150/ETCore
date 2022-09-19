@@ -1,0 +1,15 @@
+D:\ETCore6.1.1\ETCore\ETClient\Proto\Proto2CS.exe
+D:\ETCore6.1.1\ETCore\ETClient\Proto\Proto2CS.deps.json
+D:\ETCore6.1.1\ETCore\ETClient\Proto\Proto2CS.runtimeconfig.json
+D:\ETCore6.1.1\ETCore\ETClient\Proto\Proto2CS.dll
+D:\ETCore6.1.1\ETCore\ETClient\Proto\Proto2CS.pdb
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.csproj.AssemblyReference.cache
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfoInputs.cache
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfo.cs
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.csproj.CoreCompileInputs.cache
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.dll
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\refint\Proto2CS.dll
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.pdb
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\Proto2CS.genruntimeconfig.cache
+D:\ETCore6.1.1\ETCore\ETClient\Tools\Proto2CS\obj\Debug\ref\Proto2CS.dll
