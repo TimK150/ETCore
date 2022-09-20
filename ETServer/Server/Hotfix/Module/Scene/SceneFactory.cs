@@ -27,6 +27,11 @@ namespace ET
                     scene.AddComponent<PlayerComponent>();
                     scene.AddComponent<GateSessionKeyComponent>();
                     break;
+                case SceneType.Lobby:
+                    scene.AddComponent<NetOuterComponent, string>(startSceneConfig.OuterAddress);
+                    scene.AddComponent<PlayerComponent>();
+                    scene.AddComponent<LobbySessionKeyComponent>();
+                    break;
                 case SceneType.Map:
                     //scene.AddComponent<UnitComponent>();
                     //scene.AddComponent<PathfindingComponent>();

@@ -9,7 +9,9 @@ namespace ET
         public MultiMap<int, StartSceneConfig> Gates = new MultiMap<int, StartSceneConfig>();
         
         public MultiMap<int, StartSceneConfig> ProcessScenes = new MultiMap<int, StartSceneConfig>();
-        
+
+        public MultiMap<int, StartSceneConfig> Lobby = new MultiMap<int, StartSceneConfig>();
+
         public Dictionary<long, Dictionary<string, StartSceneConfig>> ZoneScenesByName = new Dictionary<long, Dictionary<string, StartSceneConfig>>();
 
         public StartSceneConfig LocationConfig;
@@ -40,6 +42,9 @@ namespace ET
                 {
                     case SceneType.Gate:
                         this.Gates.Add(startSceneConfig.Zone, startSceneConfig);
+                        break;
+                    case SceneType.Lobby:
+                        this.Lobby.Add(startSceneConfig.Zone, startSceneConfig);
                         break;
                     case SceneType.Location:
                         this.LocationConfig = startSceneConfig;
