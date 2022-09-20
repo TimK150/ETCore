@@ -113,7 +113,7 @@ namespace ET
 		 public const ushort PlayerInfo = 123;
 		 public const ushort C2G_PlayerInfo = 124;
 		 public const ushort G2C_PlayerInfo = 125;
-		public const ushort C2R_Login2 = 126;
-		public const ushort R2C_Login2 = 127;
+		public const ushort C2R_Login2 = 1260;
+		public const ushort R2C_Login2 = 1261;
 	}
 }

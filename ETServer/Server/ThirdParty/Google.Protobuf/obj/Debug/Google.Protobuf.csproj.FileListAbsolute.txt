@@ -57,6 +57,7 @@ C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.
 C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfoInputs.cache
 C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfo.cs
 C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CoreCompileInputs.cache
-C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
 C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
 C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb
+C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\refint\Google.Protobuf.dll
+C:\temp\Core\ETCore\ETServer\Server\ThirdParty\Google.Protobuf\obj\Debug\ref\Google.Protobuf.dll

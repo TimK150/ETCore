@@ -1663,6 +1663,7 @@ namespace ET {
 
     }
 
+
     public partial class C2R_Login : pb::IMessage {
     private static readonly pb::MessageParser<C2R_Login> _parser = new pb::MessageParser<C2R_Login>(() => (C2R_Login)MessagePool.Instance.Fetch(typeof(C2R_Login)));
     public static pb::MessageParser<C2R_Login> Parser { get { return _parser; } }

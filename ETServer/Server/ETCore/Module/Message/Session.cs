@@ -54,7 +54,7 @@ namespace ET
             this.channel = aChannel;
             this.requestCallback.Clear();
             long id = this.Id;
-            if ( id >0)
+            if (id > 0)
             {
                 channel.ErrorCallback += (c, e) =>
                 {
@@ -170,7 +170,14 @@ namespace ET
 
             if (!(message is IResponse response))
             {
-                this.Network.MessageDispatcher.Dispatch(this, opcode, message);
+                try
+                {
+                    this.Network.MessageDispatcher.Dispatch(this, opcode, message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
                 return;
             }
 
