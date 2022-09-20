@@ -79,3 +79,7 @@ crashlytics-build.properties
 /ETServer/Server/App/Properties/PublishProfiles
 /ETServer/Server/App/Server.App.csproj.user
 /ETClient/Unity/Temp
+/ETClient/Unity/obj/Debug/Unity.ThirdParty.csproj.CopyComplete
+/ETClient/Unity/obj/Debug/Unity.ThirdParty.csproj.FileListAbsolute.txt
+/ETClient/Unity/obj/Debug/Unity.ThirdParty.dll
+/ETServer/Server/App/Properties/launchSettings.json
