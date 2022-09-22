@@ -269,6 +269,7 @@ namespace ET
 		public void Awake(Entity component)
 		{
 			List<IAwakeSystem> iAwakeSystems = this.awakeSystems[component.GetType()];
+
 			if (iAwakeSystems == null)
 			{
 				return;
@@ -321,6 +322,8 @@ namespace ET
 
 				try
 				{
+					if(component.GetType().ToString()== "ET.NetOuterComponent")
+						Console.WriteLine($"[WS] {p1}");
 					iAwake.Run(component, p1);
 				}
 				catch (Exception e)
